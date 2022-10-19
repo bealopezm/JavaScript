@@ -113,15 +113,6 @@ const type = 'x'
 console.log(returnFalsyValues(ob1, type));
 
 //Ejercicio 8
-// 1 bytes-
-// 1.024 bytes = 1 kilobyte(abreviado KB)-
-// 1.024 KB/1048576 bytes = 1 Megabyte-
-// 1.024 MB = 1 Gigabyte(GB, giga)-
-// 1.024 GB = 1 Terabyte(TB, tera)-
-// 1.024 TB = 1 Petabyte(PB, peta)
-// 1.014 PB = 1 Exabyte(EB)
-// 1.014 EB = 1 Zettabyte(ZB)
-// 1.014 ZB = 1 Yottabyte(YB)
 
 const fromBytesToFormattedSizeUnits = (num, parameter = 3) => {
 
@@ -255,4 +246,4 @@ const splitArrayIntoChunks = (array, number) => {
 }
 
 const result3 = splitArrayIntoChunks([1, 2, 3, 4, 5, 6, 7], 3);
-console.log(result3); // [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7 ] ]
+console.log(result3);
